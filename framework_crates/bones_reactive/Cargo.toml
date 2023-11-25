@@ -1,0 +1,17 @@
+[package]
+name                    = "bones_reactive"
+description             = "A simple reactivity library for Bones."
+version.workspace       = true
+authors.workspace       = true
+edition.workspace       = true
+license.workspace       = true
+repository.workspace    = true
+documentation.workspace = true
+categories.workspace    = true
+keywords.workspace      = true
+
+[features]
+
+[dependencies]
+bones_schema = { version = "0.3", path = "../bones_schema" }
+petgraph = "0.6.4"
